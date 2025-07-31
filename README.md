@@ -5,13 +5,13 @@ table, th, td {
   
 </style>
 <body>
-  <style>
-<h3 "color:Red">Hello World</h3>
+  
+<h1 style="border: 2px solid Tomato;">Hello World</h1>
 
-<p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
 
-<p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-</style>
+<h1 style="border: 2px solid Violet;">Hello World</h1>
+
 <h2>College Information Table</h2>
 
 <table style="width:100%">
