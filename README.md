@@ -1,74 +1,27 @@
+# Responsive Full Background Image Using CSS
+[![Responsive Full Background Image](http://cdn.sixrevisions.com/0431-02_responsive_background_demo_ss.jpg)](http://sixrevisions.com/css/responsive-background-image/)
 
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Responsive Full Background Image</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="Six Revisions">
-  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
-  <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
-  <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+## Demo
+View the [demo on Six Revisions](http://cdn.sixrevisions.com/0431-01_responsive_background_image_demo/responsive-full-background-image-demo.html).
 
-  <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
-  <link rel="stylesheet" href="presentational-only/presentational-only.css">
+## What Is This?
+These are the sources files for a Six Revisions tutorial called [Responsive Full Background Image Using CSS](http://sixrevisions.com/css/responsive-background-image/).
 
-  <!-- responsive-full-background-image.css stylesheet contains the code you want -->
-  <link rel="stylesheet" href="responsive-full-background-image.css">
-  
-  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="presentational-only/presentational-only.js"></script>
-</head>
-<body>
-  <nav class="navbar" id="top">
-    <div class="inner">
-      <a href="http://sixrevisions.com/css/responsive-background-image/">Read Tutorial</a>
-    </div>
-  </nav>
-  <header class="container">
-    <section class="content">
-      <h1>Responsive Full Background Image</h1>
-      <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
-      <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
-      <p>To see scrolling behavior</p>
-      
-      <!-- Some content to demonstrate viewport scrolling behavior -->
-      <div id="more-content">
-        <p><br />Background image courtesy of <br /> <a href="http://unsplash.com/" target="_blank">Unsplash</a>.</p>
-        <blockquote>
-        Creating a goal-driven statement of what a product or application does results in better product experiences.
-        It meets expectations because it is focused on solving the problem it was created to address.
-        There is power in doing one thing and it doing it very well.
-        <cite>
-          Francisco Inchauste
-          From <a href="http://sixrevisions.com/usabilityaccessibility/creating-a-timeless-user-experience/" target="_blank">Creating a Timeless User Experience</a>
-        </cite>
-        </blockquote>
-        <blockquote>
-        Fitts' law is centered around a mathematical equation that is used to illustrate the time it takes to reach a target object.
-        A target object, in the context of UIs, can be any interactive element, such as a submit button, a hyperlink, and an input field in a web form.
-        The idea is this: The quicker you can reach a target object, the more convenient and easy it is to use.
-          <cite>
-          Jason Gross
-          From <a href="http://sixrevisions.com/usabilityaccessibility/improving-usability-with-fitts-law/" target="_blank">Improving Usability with Fitts' Law</a>
-          </cite>
-        </blockquote>
-        <blockquote>
-        Visual weight revolves around the idea that distinct elements in a design have varying heaviness relative to each other. 
-        Sometimes visual weight is obvious, such as in the case where larger objects appear heavier than smaller objects because they take up more space. 
-        In certain instances, it’s not so cut and dry, such as in the case of color. Some colors may look as if they are heavier and more dominant than others.
-          <cite>
-          Kayla Knight
-          From <a href="http://sixrevisions.com/graphics-design/visual-weight-designs/" target="_blank">Working with Visual Weight in Your Designs</a>
-          </cite>
-        </blockquote>
-      </div>
-    </section>
-  </header>
-</body>
-</html>
+* `responsive-full-background-image.css` - this contains the CSS for achieving the responsive full background image
+* `responsive-full-background-image-demo.html` - this is the HTML source code
+* Files in the `/presentational-only` are not required. They're purely for demonstrative purposes.
+* `/images` directory contains the background images. The background image is from [Unsplash](http://unsplash.com/).
 
+## Basics
+The most important property/value pair is `background-size: cover`, which dynamically scales the background image to cover the viewport even when it's resized. Responsive full background image can be achieved using this simple style rule:
+
+```
+background: url(background-photo.jpg) center center cover no-repeat fixed;
+```
+
+For a faster page load on small screens (i.e., mobile devices) a scaled-down version of the background image is served using a media query.
+
+For a complete explanation, read this tutorial: [Responsive Full Background Image Using CSS](http://sixrevisions.com/css/responsive-background-image/).
+
+## License
+The source code is released into the public domain under [CC0 1.0 Universal](https://github.com/sixrevisions/responsive-full-background-image/blob/master/LICENSE). The source code is free of any copyright restrictions. You can use, copy, sell, modify, distribute, etc. the code, even for commercial purposes, all without asking permission, providing attribution or performing any requirement.
