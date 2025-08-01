@@ -1,10 +1,12 @@
 <html>
 <head>
-<style>
-p {
-  background-image: url('23456.jpg');
+<title> Page title
+</title>
+  <style>
+    body{
+     background-image: url("");
 }
-</style>
+  </style>
 </head>
 <body>
 
