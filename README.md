@@ -1,4 +1,4 @@
-# Hellow All Of You
+#  All Of You
 [![Responsive Full Background Image](https://github.com/nandiniptl/images/blob/main/23456.jpg?raw=true)](http://sixrevisions.com/css/responsive-background-image/)
 
 ## Demo
@@ -21,7 +21,7 @@ background: url(background-photo.jpg) center center cover no-repeat fixed;
 
 For a faster page load on small screens (i.e., mobile devices) a scaled-down version of the background image is served using a media query.
 
-Good morning Hava A Nice day: [Responsive Full Background Image Using CSS](http://sixrevisions.com/css/responsive-background-image/).
+Good morning Hava A Nice day: [Responsive Full Background Image Using CSS](https://github.com/nandiniptl/images/blob/main/23456.jpg?raw=true).
 
 ## License
 The source code is released into the public domain under [CC0 1.0 Universal](https://github.com/sixrevisions/responsive-full-background-image/blob/master/LICENSE). The source code is free of any copyright restrictions. You can use, copy, sell, modify, distribute, etc. the code, even for commercial purposes, all without asking permission, providing attribution or performing any requirement.
