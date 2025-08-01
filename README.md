@@ -2,7 +2,7 @@
 <head>
 <style>
 p {
-  background-image: url('https://github.com/nandiniptl/images/blob/main/23456.jpg?raw=true');
+  background-image: url('23456.jpg');
 }
 </style>
 </head>
