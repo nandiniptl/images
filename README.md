@@ -4,13 +4,14 @@
 </title>
   <style>
     body{
-     background-image: url("https://github.com/nandiniptl/images/blob/main/23456.jpg?raw=true");
+     background-image: url('23456.jpg');
 }
   </style>
 </head>
-</body>
+<body>
 
 <h2>Background Image</h2>
+</body>
 </html>
 
 
