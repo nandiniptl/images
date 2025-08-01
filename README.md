@@ -7,7 +7,7 @@
     body {
       margin: 0;
       padding: 0;
-      background-image: url('https://raw.githubusercontent.com/username/repo-name/branch-name/folder-name/background.jpg');
+      background-image: url('https://github.com/nandiniptl/images/blob/main/23456.jpg?raw=true');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
