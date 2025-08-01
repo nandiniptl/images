@@ -1,41 +1,74 @@
-# Hero Generator
 
-→ **[Hero Generator App](https://hero-generator.netlify.app/)**
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Responsive Full Background Image</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Six Revisions">
+  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
+  <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
+  <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-_Made with 🌮 by [sarah_edo](https://twitter.com/sarah_edo), deploys on [Netlify](https://www.netlify.com/?utm_source=proj&amp;utm_medium=hero-sd&amp;utm_campaign=devex)_
+  <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
+  <link rel="stylesheet" href="presentational-only/presentational-only.css">
 
-I've had to implement the same hero for several years now, so like a good lazy programmer, I figured I'd automate it. This generator is intended to get you going, it doesn't provide every value but the code output should give you a nice jumping off point :)
-
-What does it do? It generates the code for the example above based on your preferences.
-
-![Hero Generator Screenshot](https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/hero-og.png "Hero Generator Screenshot")
-
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  <!-- responsive-full-background-image.css stylesheet contains the code you want -->
+  <link rel="stylesheet" href="responsive-full-background-image.css">
+  
+  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="presentational-only/presentational-only.js"></script>
+</head>
+<body>
+  <nav class="navbar" id="top">
+    <div class="inner">
+      <a href="http://sixrevisions.com/css/responsive-background-image/">Read Tutorial</a>
+    </div>
+  </nav>
+  <header class="container">
+    <section class="content">
+      <h1>Responsive Full Background Image</h1>
+      <p class="sub-title"><strong>Resize your browser window</strong> <br /> to see the background image change in size</p>
+      <p><a class="button" id="load-more-content" href="#top">Load some content</a></p>
+      <p>To see scrolling behavior</p>
+      
+      <!-- Some content to demonstrate viewport scrolling behavior -->
+      <div id="more-content">
+        <p><br />Background image courtesy of <br /> <a href="http://unsplash.com/" target="_blank">Unsplash</a>.</p>
+        <blockquote>
+        Creating a goal-driven statement of what a product or application does results in better product experiences.
+        It meets expectations because it is focused on solving the problem it was created to address.
+        There is power in doing one thing and it doing it very well.
+        <cite>
+          Francisco Inchauste
+          From <a href="http://sixrevisions.com/usabilityaccessibility/creating-a-timeless-user-experience/" target="_blank">Creating a Timeless User Experience</a>
+        </cite>
+        </blockquote>
+        <blockquote>
+        Fitts' law is centered around a mathematical equation that is used to illustrate the time it takes to reach a target object.
+        A target object, in the context of UIs, can be any interactive element, such as a submit button, a hyperlink, and an input field in a web form.
+        The idea is this: The quicker you can reach a target object, the more convenient and easy it is to use.
+          <cite>
+          Jason Gross
+          From <a href="http://sixrevisions.com/usabilityaccessibility/improving-usability-with-fitts-law/" target="_blank">Improving Usability with Fitts' Law</a>
+          </cite>
+        </blockquote>
+        <blockquote>
+        Visual weight revolves around the idea that distinct elements in a design have varying heaviness relative to each other. 
+        Sometimes visual weight is obvious, such as in the case where larger objects appear heavier than smaller objects because they take up more space. 
+        In certain instances, it’s not so cut and dry, such as in the case of color. Some colors may look as if they are heavier and more dominant than others.
+          <cite>
+          Kayla Knight
+          From <a href="http://sixrevisions.com/graphics-design/visual-weight-designs/" target="_blank">Working with Visual Weight in Your Designs</a>
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+  </header>
+</body>
+</html>
 
