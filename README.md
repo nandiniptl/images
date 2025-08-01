@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Display Github Image Example</hi>
-<img src="">
+<img src="https://github.com/nandiniptl/images/blob/main/123.jpg?raw=true">
  </body>
 </html>
 
