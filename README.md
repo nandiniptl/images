@@ -3,6 +3,13 @@
 
 [![Responsive Full Background Image ](https://raw.githubusercontent.com/nandiniptl/images/refs/heads/main/img.webp)]
 
+• The **[Color Flipper](https://emjose.github.io/color-flipper/)** is responsive and keyboard-navigable for accessibility.
+
+• The **[Color Flipper](https://emjose.github.io/color-flipper/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+• The **Simple** category has [146 color names and keywords recognized by CSS](https://www.w3.org/wiki/CSS/Properties/color/keywords).
+
+• The **Hex** category has hexadecimal color values.
 
 
 
