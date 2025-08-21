@@ -1,6 +1,7 @@
 #  All Of You
 [![Responsive Full Background Image ](https://github.com/nandiniptl/images/blob/main/23456.jpg?raw=true)](http://sixrevisions.com/css/responsive-background-image/)
-[![Responsive Full Background Image ](img width="800" height="1200" alt="Image" src="https://github.com/user-attachments/assets/75e49e01-a9cc-4ff7-94bc-2802817445f9" /)
+[![Responsive Full Background Image ](https://github.com/nandiniptl/images/blob/main/23456.jpg?raw=true)]
+(https://raw.githubusercontent.com/nandiniptl/images/refs/heads/main/img.webp)
 
 ```
 background: url(background-photo.jpg) center center cover no-repeat fixed;
